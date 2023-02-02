@@ -31,6 +31,7 @@ export default function Login() {
             placeholder="이메일을 입력해 주세요."
             onChange={getUserInfo}
           />
+          {/* 주석 */}
           <input
             className="userPassword"
             name="password"
